@@ -5,4 +5,4 @@ The data is fetched from an API called https://api.imgflip.com/get_memes
 This Meme Generator allows user to input text on the image as well.
 
 Deployed using netlify which can be visited over here:
-meme-generator-v2.netlify.app/
+https://meme-generator-v2.netlify.app/
