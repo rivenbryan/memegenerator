@@ -14,30 +14,40 @@ https://meme-generator-v2.netlify.app/
 
 To get started, clone the repository and install the dependencies:
 
-git clone https://github.com/[your-username]/gpa-calculator.git
-cd gpa-calculator
+```bash
+git clone https://github.com/[your-username]/meme-fetcher.git
+cd meme-fetcher
 npm install
+```
 
+Next, create a .env file at the root of the project and include your Imgflip API key. You can obtain an API key by creating an account on the Imgflip website and requesting an API key.
+
+
+```
+IMGFLIP_API_KEY=YOUR_API_KEY
+```
 ## Usage
 
 To start the development server, run:
-npm start
 
+```
+npm start
+```
 The app will be available at http://localhost:3000.
 
 To build the production version of the app, run:
 
+```
 npm run build
-
+```
 ## Features
 
-- Enter the number of credit hours and letter grade for each course to calculate your GPA.
-- View your overall GPA as well as GPA by semester.
+- Random Meme images generated
+- Users can write captions on it
 
 ## Future Plans
 
-- Allow users to save and track multiple semesters.
-- Add support for weighted GPAs.
+- Allow users to save and download the image
 
 ## Credits
 
